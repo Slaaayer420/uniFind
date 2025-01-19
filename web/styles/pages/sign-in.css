@@ -1,0 +1,92 @@
+/* Import common styles */
+@import '../common/index.css';
+
+/* Sign in page container */
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Form container */
+.sign-in__form {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form title */
+.sign-in__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Input fields */
+.sign-in__input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.sign-in__input:focus {
+  outline: none;
+  border-color: #0033cc;
+  box-shadow: 0 0 0 2px rgba(0, 51, 204, 0.1);
+}
+
+/* Submit button */
+.sign-in__submit {
+  width: 100%;
+  padding: 0.75rem;
+  background: #0033cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.sign-in__submit:hover {
+  background: #002299;
+}
+
+/* Google OAuth button */
+.sign-in__google {
+  width: 100%;
+  padding: 0.75rem;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+/* Error messages */
+.sign-in__error {
+  color: #dc2626;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+/* Links */
+.sign-in__links {
+  margin-top: 1rem;
+  text-align: center;
+}

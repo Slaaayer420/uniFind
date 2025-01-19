@@ -1,0 +1,62 @@
+.tuition-selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url('/path/to/your/background-image.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.tuition-selection__container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tuition-selection__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #312e2c;
+  margin-bottom: 1.5rem;
+}
+
+.tuition-selection__form {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.tuition-selection__input {
+  flex: 1;
+  padding: 12px 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.tuition-selection__input:focus,
+.tuition-selection__input:hover {
+  border-color: #0033cc;
+  outline: none;
+}
+
+.tuition-selection__button {
+  padding: 12px 24px;
+  background-color: #312e2c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.tuition-selection__button:hover,
+.tuition-selection__button:focus {
+  background-color: #262421;
+}

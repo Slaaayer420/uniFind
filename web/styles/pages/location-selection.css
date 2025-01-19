@@ -1,0 +1,74 @@
+.location-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  padding: 1.5rem; /* Ensure padding is consistent */
+  background-color: #f5f5f5;
+  border-radius: 15px; /* Add rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
+  padding: 1.5rem; /* Optional: Add padding for inner spacing */
+.location-selection__container {
+  width: 100%;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+  
+}
+
+ 
+.location-selection__title {
+  font-size: 2rem;
+  color: #584a37;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.location-selection__select {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 1.5rem; /* Ensure space between dropdown and button */
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.location-selection__select:hover {
+  border-color: #312e2c;
+ 
+}
+
+.location-selection__button {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #312e2c;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.location-selection__button:hover {
+  background-color: #262421;
+ 
+}
+
+.location-selection__button:focus {
+  outline: none;
+  box-shadow: 0 0 4px rgba(49, 46, 44, 0.5);
+}

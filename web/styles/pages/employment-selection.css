@@ -1,0 +1,77 @@
+.employment-selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url('/path/to/your/background-image.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 1.5rem;
+}
+
+.employment-selection__container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.employment-selection__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #312e2c;
+  margin-bottom: 1.5rem;
+}
+
+.employment-selection__input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: white;
+  color: #333;
+  margin-bottom: 1.5rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.employment-selection__input:focus {
+  outline: none;
+  border-color: #0033cc;
+  box-shadow: 0 0 0 2px rgba(0, 51, 204, 0.1);
+}
+
+.employment-selection__button {
+  width: 100%;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #312e2c;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 12px 24px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.employment-selection__button:hover,
+.employment-selection__button:focus {
+  background-color: #262421;
+  transform: translateY(-2px);
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .employment-selection__container {
+    padding: 1.5rem;
+  }
+
+  .employment-selection__input,
+  .employment-selection__button {
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
+}

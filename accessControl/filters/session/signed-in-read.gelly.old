@@ -1,0 +1,5 @@
+filter ($user: User, $session: Session) on Session [
+  where $user.id == $session.userId
+]
+
+

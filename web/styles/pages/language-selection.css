@@ -1,0 +1,76 @@
+.language-selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url('/path/to/your/background-image.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 1.5rem;
+}
+
+.language-selection__container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.language-selection__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #312e2c;
+  margin-bottom: 1.5rem;
+}
+
+.language-selection__select {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  color: #333;
+  margin-bottom: 1.5rem;
+  transition: border-color 0.2s ease;
+}
+
+.language-selection__select:hover,
+.language-selection__select:focus {
+  border-color: #0033cc;
+  outline: none;
+}
+
+.language-selection__button {
+  width: 100%;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #312e2c;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 12px 24px;
+  transition: background-color 0.2s ease;
+}
+
+.language-selection__button:hover,
+.language-selection__button:focus {
+  background-color: #262421;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .language-selection__container {
+    padding: 1rem;
+  }
+
+  .language-selection__select,
+  .language-selection__button {
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
+}
